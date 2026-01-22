@@ -1,0 +1,134 @@
+# =========================
+# Gruber Darker for Helix
+# =========================
+
+# Syntax
+# ------
+"attribute" = "yellow"
+
+"type" = "quartz"
+"type.builtin" = "quartz"
+"type.enum.variant" = "green"
+
+"constructor" = "green"
+
+"constant" = "quartz"
+"constant.character" = "wisteria"
+"constant.character.escape" = "yellow"
+
+"string" = "green"
+"string.regexp" = "wisteria"
+"string.special" = "niagara"
+
+"comment" = { fg = "brown" }
+
+"variable" = "fg"
+"variable.parameter" = "fg_plus1"
+"variable.builtin" = "yellow"
+
+"label" = "yellow"
+
+"punctuation" = "bg_plus4"
+"punctuation.special" = "yellow"
+
+"keyword" = { fg = "yellow", modifiers = ["bold"] }
+"keyword.control" = { fg = "yellow", modifiers = ["bold"] }
+
+"operator" = "yellow"
+
+"function" = "niagara"
+"function.macro" = "yellow"
+
+"tag" = "niagara"
+"namespace" = "niagara"
+
+"special" = "yellow"
+
+"markup.heading.1" = "yellow"
+"markup.heading.2" = "niagara"
+"markup.heading.3" = "green"
+"markup.heading.4" = "quartz"
+"markup.heading.5" = "wisteria"
+"markup.heading.6" = "fg"
+
+"markup.list" = "yellow"
+"markup.bold" = { fg = "fg", modifiers = ["bold"] }
+"markup.italic" = { fg = "fg", modifiers = ["italic"] }
+"markup.link.url" = { fg = "niagara", modifiers = ["underlined"] }
+"markup.link.text" = "wisteria"
+"markup.raw" = "green"
+"markup.quote" = "brown"
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+
+# UI
+# --
+"ui.background" = { fg = "fg", bg = "bg" }
+
+"ui.linenr" = { fg = "bg_plus4" }
+"ui.linenr.selected" = { fg = "yellow" }
+
+"ui.statusline" = { fg = "white", bg = "bg_plus1" }
+"ui.statusline.inactive" = { fg = "quartz", bg = "bg_plus1" }
+
+"ui.popup" = { fg = "fg", bg = "bg_plus1" }
+"ui.window" = { fg = "bg_plus2" }
+"ui.help" = { fg = "fg", bg = "bg_plus1" }
+
+"ui.text" = "fg"
+"ui.text.focus" = { fg = "fg", bg = "bg_plus3", modifiers = ["bold"] }
+"ui.text.inactive" = "quartz"
+"ui.text.directory" = { fg = "niagara", modifiers = ["bold"] }
+
+"ui.virtual" = "bg_plus4"
+"ui.virtual.indent-guide" = "bg_plus1"
+
+"ui.selection" = { bg = "bg_plus3" }
+
+"ui.cursor" = { fg = "black", bg = "yellow" }
+"ui.cursor.match" = { bg = "bg_plus4" }
+
+"ui.cursorline.primary" = { bg = "bg_plus1" }
+
+"ui.highlight" = { bg = "bg_plus4" }
+
+"ui.menu" = { fg = "fg", bg = "bg_plus1" }
+"ui.menu.selected" = { fg = "fg", bg = "bg_plus3", modifiers = ["bold"] }
+
+# Diagnostics
+# -----------
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "green", style = "curl" } }
+
+error = "red"
+warning = "yellow"
+info = "green"
+
+# Palette
+# -------
+[palette]
+fg = "#e4e4ef"
+fg_plus1 = "#f4f4ff"
+white = "#ffffff"
+black = "#000000"
+
+bg = "#181818"
+bg_minus1 = "#101010"
+bg_plus1 = "#282828"
+bg_plus2 = "#453d41"
+bg_plus3 = "#484848"
+bg_plus4 = "#52494e"
+
+red = "#f43841"
+red_dim = "#c73c3f"
+green = "#73c936"
+yellow = "#ffdd33"
+brown = "#cc8c3c"
+quartz = "#95a99f"
+
+niagara = "#96a6c8"
+niagara_dim = "#565f73"
+wisteria = "#9e95c7"

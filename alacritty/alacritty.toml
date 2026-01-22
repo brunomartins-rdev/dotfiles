@@ -1,0 +1,32 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/gruber_darker.toml"
+]
+  
+[window]
+decorations = "None"
+dynamic_title = false
+startup_mode = "Maximized"
+
+padding = { x = 3, y = 3 }
+dynamic_padding = true
+
+[font]
+size = 16
+builtin_box_drawing = true
+
+[font.normal]
+family = "Iosevka Fixed"
+style = "Regular"
+
+[font.bold]
+family = "Iosevka Fixed"
+style = "Bold"
+
+[font.italic]
+family = "Iosevka Fixed"
+style = "Italic"
+
+[font.bold_italic]
+family = "Iosevka Fixed"
+style = "Bold Italic"
